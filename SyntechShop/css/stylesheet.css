@@ -1,0 +1,476 @@
+		#AddUserBody
+		{
+           background: #C8BDB4;
+       	}
+		
+		#SignUpForm
+		{
+			width: 20%;
+			border: solid;
+			border-color: #78B3A9;
+			padding: 1%;
+		}
+
+		.back
+        {
+
+            color: gray;
+           padding: 1%;
+           background-image: linear-gradient(#029CD7,#1788C6); 
+           background-color: ;
+           width: 8%;
+           border-style: solid;
+           border-color: #1e4e45;
+           border-width: .20rem;
+           color: #1e4e45;
+           margin-top: 1%;
+           font-size: 75%;   
+           font-weight: bold;
+           border-radius: .5em;
+        }
+
+        table, th, td 
+		{
+		    border: 1px solid black;
+		}
+
+		#AddItemBody
+		{
+           background: #C8BDB4;
+       	}
+
+		#AddItemForm
+		{
+			width: 20%;
+			border: solid;
+			border-color: darkred;
+			padding: 1%;
+		}
+
+		.back
+        {
+
+            color: gray;
+           padding: 1%;
+           background-image: linear-gradient(#029CD7,#1788C6); ;
+           width: 8%;
+           border-style: solid;
+           border-color: #1e4e45;
+           border-width: .20rem;
+           color: #1e4e45;
+           margin-top: 1%;
+           font-size: 75%;   
+           font-weight: bold;
+           border-radius: .5em;
+        }
+
+        #ControlPanelBody
+		{
+           background: #C8BDB4;
+       	}
+
+        
+        #container
+       {
+           background: #FAECE1;
+           margin-top: 2.5%;
+           margin-left: 20%;
+           width: 60%;
+           height: auto;
+           min-height: 30rem;
+           padding: .5%;
+       }
+		
+		.button
+        {
+           padding: auto;
+           background-image: linear-gradient(#029CD7,#1788C6);  
+           width: 50%;
+           border-style: solid;
+           border-color: #1e4e45;
+           border-width: .20rem;
+           color: #1e4e45;
+           margin-top: 2%;
+           margin-left: 25%; 
+           font-weight: bold;
+           border-radius: .5em;
+           height: 50px;
+        }
+
+        #UserControlPanel
+        {
+        	width: 35%;
+        	padding: 2%;
+        	border-style: dotted;
+        	border-image: linear-gradient(45deg,#1788C6,#35509F) 10;
+        	border-radius: 10px;
+        	margin: 2%;
+            margin-left: 30%;
+        }
+
+        #ItemsControlPanel
+        {
+        	width: 35%;
+        	padding: 2%;
+        	border-style: dotted;
+        	border-image: linear-gradient(45deg,#1788C6,#35509F) 10;
+        	border-radius: 10px;
+        	margin: 2%;
+            margin-left: 30%;
+        }
+
+        #SalesControlPanel
+        {
+        	width: 35%;
+        	padding: 2%;
+        	border-style: dotted;
+        	border-image: linear-gradient(45deg,#1788C6,#35509F) 10;
+        	border-radius: 10px;
+        	margin: 2%;
+            margin-left: 30%;
+        }
+
+
+        .Logout
+        {
+           color: gray;
+           padding: auto;
+           background-image: linear-gradient(#1788C6,#029CD7);  
+           background-color: ;
+           width: 12%;
+           height: 10%;
+           padding: 1%;
+           border-style: solid;
+           border-color: #1e4e45;
+           border-width: .20rem;
+           color: #1e4e45;
+           margin-top: 1%;
+           font-size: 75%;   
+           font-weight: bold;
+           border-radius: .5em;
+           margin-left: 42%;
+        }
+
+        #EditItemsBody
+		{
+           background: #C8BDB4;
+       	}
+		
+
+		#EditItemForm
+		{
+			width: 20%;
+			border: solid;
+			border-color: darkred;
+			padding: 1%;
+		}
+
+        #int
+        {
+        	display: none;
+        }
+
+        #string
+        {
+        	display: none;
+        }
+
+        #EditItemcategorySelect
+        {
+        	display: none;
+        }
+
+        #QuantitySelector
+        {
+        	display: none;
+        }
+
+        #EditUsersBody
+		{
+           background: #C8BDB4;
+       	}
+		
+		#EditUserForm
+		{
+			width: 20%;
+			border: solid;
+			border-color: #78B3A9;
+			padding: 1%;
+		}
+
+		* 
+		{
+        	margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #indexBody 
+        {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            width: 100%;
+            height: 100vh;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-pack: start;
+                -ms-flex-pack: start;
+                    justify-content: flex-start;
+            font-family: 'Ek Mukta';
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 4px;
+            background: #FAECE1;
+        }
+
+
+        #indexForm 
+        {
+            position: relative;
+            width: 18rem;
+            margin-top: 8vh;
+
+        }
+
+        .chosen-value,
+        .value-list 
+        {
+            position: absolute;
+            top: 0px;
+            left: 0;
+            width: 100%;
+        }
+
+        .chosen-value 
+        {
+            font-family: 'Ek Mukta';
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 4px;
+            height: 4rem;
+            font-size: 1.1rem;
+            padding: 1rem;
+            background-color: #1788C6;
+            border: 3px solid transparent;
+            -webkit-transition: .3s ease-in-out;
+            transition: .3s ease-in-out;
+
+        }
+
+        .chosen-value::-webkit-input-placeholder 
+        {
+            color: #333;
+        }
+
+        .chosen-value:hover 
+        {
+            background-color: #1788C6;
+            cursor: pointer;
+        }
+
+        .chosen-value:hover::-webkit-input-placeholder 
+        {
+            color: #333;
+        }
+
+        .chosen-value:focus, .chosen-value.open 
+        {
+            box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.2);
+            outline: 0;
+            background-color: #1788C6;
+            color: #000;
+        }
+
+        .chosen-value:focus::-webkit-input-placeholder, .chosen-value.open::-webkit-input-placeholder 
+        {
+            color: #000;
+        }
+
+        .value-list 
+        {
+            list-style: none;
+            margin-top: 4rem;
+            box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            max-height: 0;
+            -webkit-transition: .3s ease-in-out;
+            transition: .3s ease-in-out;
+        }
+
+        .value-list.open 
+        {
+            max-height: 320px;
+            overflow: auto;
+        }
+
+        .value-list li 
+        {
+            position: relative;
+            height: 4rem;
+            background-color: #FAFCFD;
+            padding: 1rem;
+            font-size: 1.1rem;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            cursor: pointer;
+            -webkit-transition: background-color .3s;
+            transition: background-color .3s;
+            opacity: 1;
+        }
+
+        .value-list li:hover 
+        {
+            background-color: #1788C6;
+        }
+
+        .value-list li.closed 
+        {
+            max-height: 0;
+            overflow: hidden;
+            padding: 0;
+            opacity: 0;
+        }
+
+        #confirmButton
+        {
+            color: gray;
+            padding: .2rem;
+            background-image: linear-gradient(#029CD7,#1788C6); 
+            width: 50%;
+            height: 3rem;
+            border-style: solid;
+            border-color: #1e4e45;
+            border-width: .20rem;
+            color: #1e4e45;
+            margin-left: 25%;
+            margin-top: 100%;
+            font-size: 75%;   
+            font-weight: bold;
+            border-radius: 1em;
+            display: block;
+        }
+
+        #InventoryBody
+		{
+           background: #C8BDB4;
+       	}
+		
+		#EditUserForm
+		{
+			width: 20%;
+			border: solid;
+			border-color: #78B3A9;
+			padding: 1%;
+		}
+
+		#itemSelector
+		{
+			margin-left: 1%;
+			margin-top: 2%;
+			display: none;
+		}
+
+		#categorySelector
+		{
+			margin-left: 1%;
+			margin-top: 2%;
+			display: none;
+		}
+
+		#submitButton
+		{
+			display: none;
+			margin-top: 1%;
+			margin-left: 1%;
+			margin-bottom: 2%;
+		}
+
+		#ReportBody
+		{
+           background: #C8BDB4;
+       	}
+		
+		#EditUserForm
+		{
+			width: 20%;
+			border: solid;
+			border-color: #78B3A9;
+			padding: 1%;
+		}
+
+		.Total
+		{
+			color: red;
+			font-weight: bold;
+		}
+
+		.numsales
+		{
+			border: solid;
+			border-color: #1e4e45;
+			padding: 2%;
+			width: 20%;
+			font-weight: bold;
+			font-size: 1.5rem;
+			text-align: center;
+		}
+
+		.center
+		{
+			align-items: center;
+			text-align: center;
+			color: blue;
+		}
+
+		#monthSelector
+		{
+			margin-left: 1%;
+			margin-top: 2%;
+			display: none;
+		}
+
+		#daySelector
+		{
+			margin-left: 1%;
+			margin-top: 2%;
+			display: none;
+		}
+
+		#userSelector
+		{
+			margin-left: 1%;
+			margin-top: 2%;
+			display: none;
+		}
+
+		#SearchUser
+		{
+			margin-top: 1%;
+		}
+
+		#SalesBody
+		{
+           background: #C8BDB4;
+       	}
+		
+		#EditUserForm
+		{
+			width: 20%;
+			border: solid;
+			border-color: #78B3A9;
+			padding: 1%;
+		}
+
+        
+
+

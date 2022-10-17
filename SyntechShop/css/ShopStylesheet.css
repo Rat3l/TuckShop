@@ -1,0 +1,285 @@
+               [type="number"]::-webkit-inner-spin-button,
+        [type="number"]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        height: auto;
+        }
+        .stepper {
+        border: 1px solid #eee;
+        display: inline-block;
+        overflow: visible;
+        height: 2.1em;
+        background: #fff;
+        padding: 1px;
+        }
+        .stepper input {
+        width: 3em;
+        height: 100%;
+        text-align: center;
+        border: 0;
+        background: transparent;
+        color: #000;
+        }
+        .stepper button {
+        width: 1.4em;
+        font-weight: 300;
+        height: 100%;
+        line-height: 0.1em;
+        font-size: 1.4em;
+        padding: 0.2em !important;
+        background: #eee;
+        color: #333;
+        border: none;
+        }
+        #ShopBody
+       {
+           background: #C8BDB4;
+       }
+
+       #ListContainer
+       {
+           margin-top: 1%;
+           margin-left: 20%;
+           width: 60%;
+           height: 2rem;
+       }
+
+       #container2
+       {
+           background: #FAECE1;
+           margin-top: 2.5%;
+           margin-left: 20%;
+           width: 60%;
+           height: auto;
+           min-height: 30rem;
+           padding: .5%;
+       }
+
+       .ListDiv
+       {
+        width: 5%;
+        background-color: aqua;
+        display: inline;
+       }
+
+       nav a
+       {
+           list-style: none;
+           text-align: center;
+           align-items: center;
+           margin: 0%;
+           display: inline;
+           color: gray;
+           padding: 0.7rem;
+           background: #FAECE1;
+           width: 200%;
+           height: 1rem;
+           border: .20rem solid;
+           border-image: linear-gradient(45deg,#1788C6,#35509F) 10;
+           border-radius: 1em;
+           color: #1e4e45;
+           font-size: 75%;   
+           font-weight: bold;
+       }
+
+
+
+
+       .NavGrid
+       {
+            margin-left: -5%;
+            display: grid;
+            height: 150%;
+            width: 100%;
+            grid-template-columns: repeat(6,6.5%);
+            grid-template-rows: 1%;
+            grid-gap: 12.5%;
+   
+        }
+
+        #LogoContainer
+        {
+           height: 10%;
+           padding: 1rem;
+        }
+
+        #Logo
+        {         
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 1rem;
+            width: 17%;
+        }
+
+        #cartContainer
+        {
+            height: 80%;
+            width: 80%;
+            padding: 1%;
+            margin-left: 10%;
+            font-family: cursive;
+        }
+
+        #cart
+        {
+            padding: 1%;
+            background-image: linear-gradient(#1788C6,#029CD7);   
+            background-color: #029CD7;       
+            margin-left: 25%;
+            height: auto;
+            width: 50%;
+            border-radius:1rem;
+            border: solid;
+            border-width: 1%;
+            border-color: #1e4e45;
+            
+        }
+
+        .Logout
+        {
+
+            color: white;
+           padding: 1%;
+           background-color: #1579B0;
+           width: 8%;
+           border-style: solid;
+           border-color: #1788C6;
+           border-width: .20rem;
+           color: #1e4e45;
+           margin-top: 1%;
+           font-size: 75%;   
+           font-weight: bold;
+           border-radius: .5em;
+        }
+
+
+       #confirmButton
+       {
+           color: gray;
+           padding: .2rem;
+           background-image: linear-gradient(#029CD7,#1788C6);    
+           width: 20%;
+           height: 3rem;
+           border-style: solid;
+           border-color: #1e4e45;
+           border-width: .20rem;
+           color: #1e4e45;
+           margin-left: 42%;
+           margin-top: auto%;
+           margin-top: 5%;
+           font-size: 75%;   
+           font-weight: bold;
+           border-radius: 1em;
+
+       }
+
+       .container3
+       {
+            padding: 2%;
+            height: 50%;
+            width: 50%;
+            margin-left: 18%;
+       }
+
+       .modal 
+       {
+            
+            display: none;
+            position: fixed;
+            z-index: 1;
+            padding-top: 10rem;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            overflow-y: auto;
+            background-color: rgba(0, 0, 0, 0.4);
+            color: var(--light);
+        }
+
+        .modal-content 
+        {
+            max-height: 45%;
+            overflow-y: auto;
+            background-color: #08567A;
+            margin: auto;
+            padding: 2rem;
+            border: 1px solid #888;
+            width: 50%;
+            border-radius: 1.5rem;
+        }
+
+        .modal-div 
+        {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 1rem auto 0 auto;
+            width: 85%;
+        }
+
+        .close 
+        {
+            color: #aaaaaa;
+            float: right;
+            font-size: 50px;
+            font-weight: bold;
+            position : absolute;
+            left:74%;
+        }
+
+        #ChocoButton
+        {
+            text-align: left;
+        }
+
+        table{
+           
+            width: 100%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        tr{
+            padding: 1em;
+            text-align: center;
+            height: 50px;
+
+        }
+
+        td .Selected{
+             border: 1px solid rgb(1, 0, 0);
+            border: 1px solid rgba(1, 0, 0, .1);
+
+        }
+
+        li{
+            margin: 4%;
+        }
+
+        .AddToCart
+        {
+            color: gray;
+            padding: .2rem;
+            background: #1579B0;
+            width: 20%;
+            height: 3rem;
+            border-style: solid;
+            border-color: #1e4e45;
+            border-width: .20rem;
+            color: #1e4e45;
+            margin-left: 42%;
+            margin-top: 5%;
+            font-size: 75%;   
+            font-weight: bold;
+            border-radius: 1em;
+            display: none;
+        }
+
+         input[type='radio'] { 
+             transform: scale(1.3); 
+         }
+
